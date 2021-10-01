@@ -8,6 +8,11 @@
 
 This is an easy-to-use EMA crossing bot for automatic spot trading on [Binance](www.binance.com).
 
+<p float="left">
+  <img src="assets/Telegram_logo.svg" width="100" />
+  <img src="assets/Binance-Logo.wine.svg" width="150" /> 
+</p>
+
 ## Getting started
 
 1. Get your API keys on Binance and add them to `loadEnv.sh`.
@@ -34,6 +39,10 @@ telegramApiKey = 'your_telegram_bot_api_key'
 - Plots positions and profit/loss at exit
 - All the deal info is saved to a dataframe for later analysis
 - Uses sockets to get data
+
+<p align="center">
+  <img src="assets/tg_screen.png" style="width:20%">
+</p>
 
 ## Telegram commands
 - `/pos` - returns a candlestic chart indicating current and past trades and profits
